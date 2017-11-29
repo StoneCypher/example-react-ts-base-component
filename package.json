@@ -1,0 +1,41 @@
+{
+  "name": "example-react-ts-base-component",
+  "version": "0.3.0",
+  "description": "Shows how to write a React / Typescript base component in a modular control repo",
+  "main": "src/ts/index.ts",
+  "scripts": {
+    "typescript": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoneCypher/example-react-ts-base-component.git"
+  },
+  "keywords": [
+    "Example",
+    "typescript",
+    "react",
+    "base",
+    "component",
+    "using",
+    "ts",
+    "builds"
+  ],
+  "author": "John Haugeland <stonecypher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoneCypher/example-react-ts-base-component/issues"
+  },
+  "homepage": "https://github.com/StoneCypher/example-react-ts-base-component#readme",
+  "devDependencies": {
+    "@types/react": "^16.0.25",
+    "@types/react-dom": "^16.0.3",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "rollup": "^0.52.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript2": "^0.8.4",
+    "typescript": "^2.6.2"
+  }
+}
