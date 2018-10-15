@@ -1,6 +1,6 @@
 {
   "name": "example-react-ts-base-component",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Shows how to write a React / Typescript base component in a modular control repo",
   "main": "src/ts/index.ts",
   "scripts": {
@@ -33,9 +33,9 @@
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "rollup": "^0.52.0",
-    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-typescript2": "^0.8.4",
+    "rollup-plugin-typescript2": "^0.17.1",
     "typescript": "^2.6.2"
   }
 }
